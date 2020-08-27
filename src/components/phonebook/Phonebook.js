@@ -83,7 +83,9 @@ class Phonebook extends Component {
           classNames={errorFade}
           unmountOnExit
         >
-          <div>Error!!! Contact is already exist!</div>
+          <div className={styles.blockerror}>
+            Error!!! Contact is already exist!
+          </div>
         </CSSTransition>
         <div className={styles.block}>
           <div className={styles.form}>
